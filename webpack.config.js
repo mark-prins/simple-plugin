@@ -1,7 +1,6 @@
 const prod = process.env.NODE_ENV === 'production';
 const path = require('path');
 
-// this tests nothing
 module.exports = {
   mode: prod ? 'production' : 'development',
   entry: './src/index.ts',
